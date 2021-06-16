@@ -1,22 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
-
+import Section from './Section.js';
+import './bootstrap.min.css'
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        Mike's Site
+        <div class="container">
+          <Section text={"Text1"} />
+          <Section text={"Text2"} />
+        </div>
       </header>
     </div>
   );
