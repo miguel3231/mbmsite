@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         Mike's Site
         <div class="container">
-          <Section text={"Text1"} />
+          <Section text={"Test change"} />
           <Section text={"Text2"} />
         </div>
       </header>
