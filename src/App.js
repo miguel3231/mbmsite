@@ -9,7 +9,7 @@ function App() {
         Mike's Site
         <div class="container">
           <Section text={"Test change"} />
-          <Section text={"Text2"} />
+          <Section text={"Test change 2"} />
         </div>
       </header>
     </div>
